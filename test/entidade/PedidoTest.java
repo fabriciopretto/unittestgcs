@@ -12,10 +12,22 @@ import org.junit.Test;
  *
  * @author pretto
  */
-public class TestePedido {
+public class PedidoTest {
 
     @Test
-    public void testCalcularValorLiquido() {
+    public void testCalcularValorLiquido901() {
+        double valorLiquidoEsperado = 901;
+
+        Pedido pedido = new Pedido();
+
+        pedido.setData("10/04/2019");
+        pedido.setValorTotal(1000);
+
+        assertEquals(valorLiquidoEsperado, pedido.calcularValorLiquido(10), 0.001);
+    }
+
+    @Test
+    public void testCalcularValorLiquido900() {
         double valorLiquidoEsperado = 900;
 
         Pedido pedido = new Pedido();

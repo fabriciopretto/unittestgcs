@@ -18,7 +18,7 @@ import org.junit.runners.Suite;
  * @author pretto
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({entidade.TestePedido.class, entidade.TestPedido.class, entidade.TConex.class})
+@Suite.SuiteClasses({entidade.PedidoTest.class, entidade.TConex.class})
 public class ConjuntoTestes {
     
     TestSuite ts = new TestSuite();
