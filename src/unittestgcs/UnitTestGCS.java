@@ -5,6 +5,8 @@
  */
 package unittestgcs;
 
+import java.util.Date;
+
 /**
  *
  * @author pretto
@@ -22,6 +24,8 @@ public class UnitTestGCS {
 
         int x = 5;
         System.out.println(x > 10);
+
+        System.out.println("Teste realizado: " + new Date());
     }
 
 }
