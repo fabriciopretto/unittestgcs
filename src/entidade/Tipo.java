@@ -10,5 +10,7 @@ package entidade;
  * @author pretto
  */
 public class Tipo {
+
+    int id;
     
 }
