@@ -10,5 +10,6 @@ package entidade;
  * @author pretto
  */
 public class Categoria {
-    
+ 
+    // TODO Setter e Getters
 }
