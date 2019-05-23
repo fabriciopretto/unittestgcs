@@ -11,7 +11,7 @@ package entidade;
  */
 public class Pedido {
 
-    private String data;
+    private String data
     private double valorTotal;
     private double valorFinal;
     private double desconto;

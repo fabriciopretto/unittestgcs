@@ -16,7 +16,7 @@ public class PedidoTest {
 
     @Test
     public void testCalcularValorLiquido901() {
-        double valorLiquidoEsperado = 90000;
+        double valorLiquidoEsperado = 900;
 
         Pedido pedido = new Pedido();
 
