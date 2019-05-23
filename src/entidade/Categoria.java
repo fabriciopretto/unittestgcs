@@ -12,4 +12,8 @@ package entidade;
 public class Categoria {
  
     // TODO Setter e Getters
+    
+    // aqui Set
+    
+    // aqui Get
 }
